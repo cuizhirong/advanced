@@ -1,0 +1,39 @@
+.app {
+  .create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 322px;
+    > div {
+      margin-bottom: 20px;
+      p {
+        margin-bottom: 4px;
+      }
+      input,
+      textarea {
+        padding: 4px 10px;
+        border-radius: 2px;
+        width: 300px;
+        height: 24px;
+        border: 1px solid #e3e4e5;
+        outline: none;
+        cursor: pointer;
+        &:focus {
+          border: 1px solid #00afc8;
+          outline: none ;
+        }
+      }
+      textarea {
+        height: 200px;
+      }
+    }
+    .btn {
+      > button {
+        cursor: pointer;
+      }
+      > button:last-child {
+        float: right;
+      }
+    }
+  }
+}
